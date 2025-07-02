@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import { ShoppingCart, Plus } from 'lucide-react'
+import { Plus } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { Product, useCartStore } from '@/stores/cart-store'
 import toast from 'react-hot-toast'
