@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+:root {
+  --coffee-dark: #3C2415;
+  --coffee-medium: #8B4513;
+  --coffee-light: #D2B48C;
+  --coffee-cream: #F5F5DC;
+  --coffee-gold: #DAA520;
+  --colombia-yellow: #FCE205;
+  --colombia-blue: #003893;
+  --colombia-red: #CE1126;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  color: var(--coffee-dark);
+  background: var(--coffee-cream);
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.bg-coffee-gradient {
+  background: linear-gradient(135deg, var(--coffee-light) 0%, var(--coffee-cream) 100%);
+}
+
+.text-coffee-dark {
+  color: var(--coffee-dark);
+}
+
+.text-coffee-medium {
+  color: var(--coffee-medium);
+}
+
+.text-coffee-light {
+  color: var(--coffee-light);
+}
+
+.bg-coffee-dark {
+  background-color: var(--coffee-dark);
+}
+
+.bg-coffee-medium {
+  background-color: var(--coffee-medium);
+}
+
+.bg-coffee-light {
+  background-color: var(--coffee-light);
+}
+
+.bg-coffee-cream {
+  background-color: var(--coffee-cream);
+}
+
+.border-coffee-medium {
+  border-color: var(--coffee-medium);
+}
+
+.hover\:bg-coffee-medium:hover {
+  background-color: var(--coffee-medium);
+}
+
+.hover\:bg-coffee-dark:hover {
+  background-color: var(--coffee-dark);
+} 

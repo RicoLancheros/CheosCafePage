@@ -1,0 +1,52 @@
+cheoscafe25@hotmail.com
+cheoscafe2025
+Supabase: & database
+Cheoscafe2025.
+
+Proyect URL: https://xpqadohoiwsoqjhkfztd.supabase.co
+
+anon public API: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhwcWFkb2hvaXdzb3FqaGtmenRkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE0MzA2ODQsImV4cCI6MjA2NzAwNjY4NH0.2CRGok2Q_LLXn01LTq6GL61zTIoCcdYp-jgyTdjExb0
+
+Service_role API: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhwcWFkb2hvaXdzb3FqaGtmenRkIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1MTQzMDY4NCwiZXhwIjoyMDY3MDA2Njg0fQ.rABe60nh-44poirqSxg1db1iSNhJzV5s43LOv92hhh0
+
+
+
+Vamos a empezar un proyecto Nuevo, va a ser un E-Comerce, enfocado en la venta de Cafe en bolsa! la empresa se llama "Cheos Cafe", la estetica va a ser de Colores tipo cafe, hay que tener encuenta que la empresa es de colombia, pero no hace falta resaltarlo tantoooo, depronto en el tema de los colores y diseño de la pagina por encima.
+
+Las tecnologias que vamosa  utilizar son:
+
+Core
+
+Next.js 14 (App Router)
+TypeScript
+Tailwind CSS
+
+Base de Datos y Backend
+
+Supabase (PostgreSQL + Auth + Storage)
+Prisma (ORM)
+
+Estado y Formularios
+
+Zustand (estado global del carrito)
+React Hook Form (formularios)
+Zod (validación)
+
+UI y Componentes
+
+Radix UI (componentes headless)
+Lucide React (iconos)
+Framer Motion (animaciones)
+
+Pagos y Funcionalidades
+
+Stripe (pagos)
+React Hot Toast (notificaciones)
+date-fns (fechas)
+
+Deployment
+
+Vercel (hosting)
+Dominio custom
+
+Front: Vamos a trabajar primero con el front basico, para luego implementarle el Backend, conectarlo con el backend!. la idea es que no tenga mas de 1 vista (la pagina principal) obviamente va a tener la vista de el carrito, la vista del proceso de pago, entre otras, pero como tal la pagina para ingresar, y comprar el cafe la idea es que todo este en una Landing Page, en donde inicie con una Navbar simple, que contenga el Icono a la izquierd, un buscador de  productos en medio, y ya el cambio de Idioma, y el carrito a la derecha, despues de eso, un carrousel con fotos que vamos a traer desde Supabase!, asi que tenlo encuenta para crear el front, despues de el carrousel van a ir los productos, separados por categorias, tipo "cafes" y que sean los cafes que tenemos, y que sea un maximo de 6 por categoria, que otra categoria por ejemplo sea "Complementos", otra por ejemplo "Aromaticas", ya despues de esto que aparesca los puntos fisicos de venta, y finalmente el footer de la pagina, con links de contacto, e informacion basica!, empeiza con el front, y cuando lo termines, me avisas! 
